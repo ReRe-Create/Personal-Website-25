@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reanna Liu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="https://kit.fontawesome.com/8d1e73f923.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="name">
+                <h2>Reanna Liu</h2>
+            </div>
+
+            <div class="mobile">
+                <button><i class="fa-solid fa-bars fa-lg"></i></button>
+
+                <ul class="nav-links">
+                    <a href="#About-Me"> About Me</a>
+                    <a id="contactbtn" href="#Contact">Contact</a>
+               </ul>
+            </div>
+
+           <ul class="nav-links">
+                <li><a href="#About-Me"> About Me</a></li>
+                <li><a id="contactbtn" href="#Contact">Contact</a></li>
+           </ul>
+ 
+        </nav>
+    </header>
+
+    <section id="About-Me">
+        <div class="container">
+        <div class="About-container">
+            <h1>About Me:</h1><br>
+            <p id="Reanna">Hi, I'm Reanna!<br>
+            <p> I'm a first year computer engineering student at<br> the University of Waterloo.
+            <pr>I look forward to opportunities <br> in learning and growing my technical skills.</pr><br><br>
+
+            <p>Programming languages:</p>
+            <p>HTML, CSS, Python, C++</p><br>
+            
+            <p>Softwares:</p>
+            <p>VS Code, Canva, Audacity, Ibis Paint</p>
+
+            <div class="social">
+                <a href="https://www.linkedin.com/in/reanna-liu/" target="_blank">
+                <i class="fa-brands fa-linkedin fa-xl"></i>
+                </a>
+                
+                <a class="link" href="https://www.linkedin.com/in/reanna-liu/" target="_blank">Linkedin</a>
+                
+                <a href="https://github.com/ReRe-Create" target="_blank">
+                    <i class="fa-brands fa-square-github fa-xl"></i>
+                    </a>
+                <a class="link" href="https://github.com/ReRe-Create" target="_blank">Github</a>
+            
+            </div>
+        </div>
+
+        <!---Need to work on the pproject Slider-->
+            <section  class="project">
+                <div class="project-container">
+                    <h1 id="project-heading">Projects</h1>
+                        <div class="card">
+                            <a href="https://github.com/ReRe-Create/Productivity" target="_blank">
+                             <h2>Productivity Site (WIP)</h2>
+                                <p>Made a to-do list, lofi music player and currently <br>working on pomodoro timer</p>
+                                <p id="skill">HTML, CSS & Javascript</p>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="https://github.com/ReRe-Create/Link-Tree-Clone" target="_blank">
+                            <h2>LinkTree Clone</h2>
+                            <p id="skill">HTML, CSS</p>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <h2>ECE 150 Course Grade Calculator</h2>
+                            <p>A grade calculator for ECE 150 Course</p>
+                            <p id="skill">C++</p>
+                        </div>
+                        <div class="card">
+                            <a href="https://reanna-liu.framer.website/" target="_blank">
+                            <h2>Highschool Portfolio</h2>
+                            <p>A showcase of my highschool projects or achievements.</p>
+                            <p id="skill">Framer</p>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="https://replit.com/@Reanna1/Breach-Bot-Reanna-L?v=1#main.py">
+                            <h2>BreachBot</h2>
+                            <p>A Girls Who Code project for learning about data breaches and cybersecurity.</p>
+                            <p id="skill">Python</p>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="https://replit.com/@Reanna1/CyHelp-Reanna-L" target="_blank">
+                            <h2>CyHelp</h2>
+                            <p>A Girls Who Code project for learning<br> cybersecurity principles and programming fundamentals.</p>
+                            <p id="skill">Python</p>
+                            </a>
+                        </div>
+                    
+                    </div>
+                    
+
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <h1 id="contact-heading">Contact Me</h1>
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="affca859-defe-4144-89f3-465e82eca451">
+
+                <label for="name">Name:</label>
+                <input type="text" placeholder="John Doe"id="name" required> <br>
+                
+                <label for="email">Email:</label>
+                <input type="email" placeholder="john.doe@gmail.com"id="email" required> <br>
+    
+                <label for="message">Message:</label>
+                <textarea name="message" placeholder="Send your message here..."id="message" required></textarea>
+                <br>
+
+                <button type="submit" id="send">send</button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <h5>Site by Reanna   2025</h5>
+    </footer>
+    
+</body>
+</html>
